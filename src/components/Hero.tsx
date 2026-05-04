@@ -1,5 +1,5 @@
-import heroModel from "@/assets/hero-model.jpg";
-import heroShorts from "@/assets/hero-shorts.jpg";
+import heroModel from "@/assets/hero-model.png";
+import heroShorts from "@/assets/hero-shorts.png";
 import { Sparkles } from "lucide-react";
 
 export function Hero() {
