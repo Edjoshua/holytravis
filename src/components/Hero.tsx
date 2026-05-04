@@ -1,5 +1,5 @@
-import heroModel from "@/assets/hero-model.jpg";
-import heroShorts from "@/assets/hero-shorts.jpg";
+import heroModel from "@/assets/hero-model.png";
+import heroShorts from "@/assets/hero-shorts.png";
 import { Sparkles } from "lucide-react";
 
 export function Hero() {
@@ -33,11 +33,11 @@ export function Hero() {
         </div>
 
         <div className="relative">
-          <div className="relative mx-auto w-full max-w-md aspect-[4/5] overflow-hidden bg-beige" style={{ borderRadius: "9999px 9999px 1.5rem 1.5rem" }}>
-            <img src={heroModel} alt="Model wearing Holy Travis luxury cap and tee" className="w-full h-full object-cover" width={1024} height={1280} />
+          <div className="relative mx-auto w-full max-w-md aspect-[4/5] overflow-hidden bg-beige flex items-end justify-center" style={{ borderRadius: "9999px 9999px 1.5rem 1.5rem" }}>
+            <img src={heroModel} alt="Model wearing Holy Travis luxury cap and tee" className="w-full h-full object-contain" width={1024} height={1280} />
           </div>
-          <div className="absolute bottom-8 -left-2 md:left-8 w-32 md:w-40 aspect-[4/5] rounded-2xl overflow-hidden ring-4 ring-background shadow-[var(--shadow-card)] bg-white">
-            <img src={heroShorts} alt="Luxury white shorts" loading="lazy" className="w-full h-full object-cover" width={512} height={640} />
+          <div className="absolute bottom-8 -left-2 md:left-8 w-32 md:w-40 aspect-[4/5] rounded-2xl overflow-hidden ring-4 ring-background shadow-[var(--shadow-card)] bg-beige-soft flex items-end justify-center">
+            <img src={heroShorts} alt="Holy Travis white shorts" loading="lazy" className="w-full h-full object-contain" width={512} height={640} />
           </div>
           <Sparkles className="absolute top-4 right-4 h-6 w-6 text-gold" />
         </div>
