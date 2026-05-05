@@ -51,7 +51,7 @@ export function ProductCard({ product, dark = false }: { product: Product; dark?
           loading="lazy"
           width={800}
           height={1000}
-          className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
+          className={`w-full h-full transition-transform duration-500 hover:scale-105 ${product.id === "cap" ? "object-contain bg-ink" : "object-cover"}`}
         />
         <button
           onClick={() => setWished((w) => !w)}
