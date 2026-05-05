@@ -57,7 +57,7 @@ export const useCart = create<CartState>()(
   )
 );
 
-export const WHATSAPP_NUMBER = "2347045620631";
+export const WHATSAPP_NUMBER = "447951349655";
 
 export function buildWhatsAppUrl(items: CartItem[], total: number) {
   // Group by product to show colors aggregated
