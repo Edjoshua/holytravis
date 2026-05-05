@@ -1,7 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { ShoppingBag } from "lucide-react";
 import { useCart } from "@/lib/cart-store";
-import logo from "@/assets/logo.jpeg";
+import logo from "@/assets/logo.png";
 
 export function Navbar() {
   const { open, totalCount } = useCart();

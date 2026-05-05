@@ -1,4 +1,4 @@
-import logo from "@/assets/logo.jpeg";
+import logo from "@/assets/logo.png";
 
 export function Footer() {
   return (
@@ -24,7 +24,7 @@ export function Footer() {
         </div>
         <div>
           <h4 className="text-white font-medium mb-3">Contact</h4>
-          <p className="text-sm">WhatsApp: +234 704 562 0631</p>
+          <p className="text-sm">WhatsApp: +44 7951 349655</p>
         </div>
       </div>
       <div className="container-luxe mt-10 pt-6 border-t border-white/10 text-xs text-white/50 text-center">
