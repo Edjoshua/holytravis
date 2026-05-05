@@ -12,7 +12,7 @@ export function Footer() {
               <div className="text-[10px] tracking-[0.3em] text-gold uppercase">Luxury</div>
             </div>
           </div>
-          <p className="text-sm mt-4 max-w-xs">Luxury fashion house — est. 2024. Crafted for those who demand more.</p>
+          <p className="text-sm mt-4 max-w-xs">Luxury fashion house. Crafted for those who demand more.</p>
         </div>
         <div>
           <h4 className="text-white font-medium mb-3">Shop</h4>
