@@ -26,7 +26,7 @@ export const products: Product[] = [
   { id: "joggers", name: "Joggers Old School", price: 75000, image: joggers, category: "Bottoms", colors: ["Black", "White"] },
   { id: "shorts", name: "Shorts", price: 30000, image: shorts, category: "Bottoms", colors: ["Black", "White"] },
   { id: "tank", name: "Tank Top", price: 25000, image: tank, category: "Tops", colors: ["Black", "White"] },
-  { id: "cap", name: "Simple Face Cap", price: 15000, image: cap, category: "Wear", colors: ["Black", "Beige"] },
+  { id: "cap", name: "Simple Face Cap", price: 15000, image: cap, category: "Wear", colors: ["Black", "White", "Beige"] },
   { id: "joggers-normal", name: "Joggers (Normal)", price: 70000, image: trendJoggers, category: "Bottoms", colors: ["White", "Black"] },
   { id: "tees-white", name: "Tees", price: 50000, image: trendTees, category: "Tops", colors: ["White", "Black", "Beige"] },
 ];
