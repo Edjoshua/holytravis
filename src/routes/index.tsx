@@ -9,6 +9,7 @@ import { Trends } from "@/components/Trends";
 import { Testimonials } from "@/components/Testimonials";
 import { Footer } from "@/components/Footer";
 import { CartDrawer } from "@/components/CartDrawer";
+import { useScrollReveal } from "@/hooks/use-scroll-reveal";
 
 export const Route = createFileRoute("/")({
   component: Index,
@@ -23,6 +24,7 @@ export const Route = createFileRoute("/")({
 });
 
 function Index() {
+  useScrollReveal();
   return (
     <div className="min-h-screen bg-background">
       <Navbar />
