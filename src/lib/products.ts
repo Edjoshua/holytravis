@@ -22,7 +22,7 @@ export type Product = {
 export const products: Product[] = [
   { id: "hoodie", name: "Hoodie", price: 80000, image: hoodie, category: "Tops", colors: ["Black", "White", "Beige"] },
   { id: "tshirt", name: "T Shirt", price: 55000, image: tshirt, category: "Tops", colors: ["Black", "White", "Beige"] },
-  { id: "tees", name: "Tees", price: 50000, image: tees, category: "Tops", colors: ["Black", "White", "Beige"] },
+  { id: "tees", name: "Plain Tees", price: 50000, image: tees, category: "Tops", colors: ["Black", "White", "Beige"] },
   { id: "joggers", name: "Joggers Old School", price: 75000, image: joggers, category: "Bottoms", colors: ["Black", "White"] },
   { id: "shorts", name: "Shorts", price: 30000, image: shorts, category: "Bottoms", colors: ["Black", "White"] },
   { id: "tank", name: "Tank Top", price: 25000, image: tank, category: "Tops", colors: ["Black", "White"] },
