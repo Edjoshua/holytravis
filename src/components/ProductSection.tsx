@@ -17,12 +17,16 @@ export function ProductSection() {
             Discover a wide range of luxury clothing categories tailored to suit your fashion needs.
           </p>
         </div>
-        <div className="inline-flex items-center gap-1 rounded-full bg-muted p-1 self-start md:self-auto">
+        <div className="inline-flex items-center gap-1.5 rounded-full bg-ink/5 p-1.5 self-start md:self-auto border border-gold/30 shadow-md">
           {tabs.map((t) => (
             <button
               key={t}
               onClick={() => setActive(t)}
-              className={`px-5 py-2 text-sm rounded-full transition ${active === t ? "bg-background shadow text-foreground" : "text-muted-foreground"}`}
+              className={`px-6 py-2.5 text-sm font-semibold uppercase tracking-wider rounded-full transition-all duration-300 ${
+                active === t
+                  ? "bg-gold text-white shadow-lg shadow-gold/40 scale-105"
+                  : "text-ink/70 hover:text-ink hover:bg-white/60"
+              }`}
             >
               {t}
             </button>
