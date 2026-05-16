@@ -6,7 +6,7 @@ const tabs = ["Tops", "Bottoms", "Wear"] as const;
 
 export function ProductSection() {
   const [active, setActive] = useState<(typeof tabs)[number]>("Tops");
-  const filtered = products.filter((p) => p.category === active).slice(0, 3);
+  const filtered = products.filter((p) => p.category === active);
 
   return (
     <section id="shop" className="container-luxe py-16 md:py-24">
