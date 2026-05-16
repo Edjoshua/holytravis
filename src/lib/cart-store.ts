@@ -67,7 +67,7 @@ export function buildWhatsAppUrl(items: CartItem[], total: number) {
     g.colors.push({ color: it.color, qty: it.quantity });
     grouped.set(it.productId, g);
   }
-  let msg = "Hello, I want to order the following items:\n\n";
+  let msg = "Hello, I have just made payment for the following order:\n\n";
   let i = 1;
   for (const [, g] of grouped) {
     const colorStr = g.colors.map((c) => `${c.color} (${c.qty})`).join(", ");
