@@ -12,6 +12,7 @@ import combatTrack from "@/assets/product-combat-track.jpg";
 import alphaShirt from "@/assets/product-alpha-shirt.jpg";
 import htShort from "@/assets/product-ht-short.jpg";
 import tankWhite from "@/assets/product-tank-white.jpg";
+import htPremiumShorts from "@/assets/product-ht-premium-shorts.jpg";
 
 export type ColorOption =
   | "Black"
@@ -41,6 +42,7 @@ export const products: Product[] = [
   { id: "tank-top", name: "Tank Top", price: 30000, image: tankWhite, category: "Tops", colors: ["Red", "Cream", "White", "Black", "Orange"] },
   { id: "combat-track", name: "Combat Track", price: 75000, image: combatTrack, category: "Bottoms", colors: ["Black", "Brown", "Ash", "Red"] },
   { id: "ht-short", name: "Holy Travis Short", price: 35000, image: htShort, category: "Bottoms", colors: ["Green", "Red", "Black", "Orange", "White"] },
+  { id: "ht-premium-shorts", name: "HT Premium Shorts", price: 35000, image: htPremiumShorts, category: "Bottoms", colors: ["White", "Black", "Red"] },
 
   // Existing catalog
   { id: "hoodie", name: "Hoodie", price: 80000, image: hoodie, category: "Tops", colors: ["Black", "White", "Beige"] },
